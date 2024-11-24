@@ -1,5 +1,5 @@
 import React,{useEffect, useState} from 'react'
-import { useLocation, useNavigate} from 'react-router-dom/dist'
+import { useLocation, useNavigate} from 'react-router-dom'
 import { BiBriefcaseAlt2 } from "react-icons/bi";
 import { BsStars } from "react-icons/bs";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";

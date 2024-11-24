@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { apiRequest } from "../utils";
 import { useSelector } from "react-redux";
-import { Loading } from "../components";
+import { Loading } from ".";
 
 const SeekerCard = ({ id }) => {
   const { user } = useSelector((state) => state.user);
